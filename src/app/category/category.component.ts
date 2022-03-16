@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Product, products } from '../products';
-import { Category, category } from '../categories';
+import { Category } from '../categories';
 //import { CartService } from '../cart.service';
 @Component({
   selector: 'app-category',

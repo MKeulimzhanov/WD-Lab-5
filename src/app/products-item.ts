@@ -1,4 +1,5 @@
 export interface Product {
+  Cid: number;
   id: number;
   image: string;
   image2: string;
@@ -12,6 +13,7 @@ export interface Product {
 
 export const products = [
   {
+    Cid: 1,
     id: 1,
     image:"https://m.media-amazon.com/images/I/611ovP2GkrL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/61GtmYgx8QL._FMwebp__.jpg",
@@ -23,6 +25,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Alpine-Carrier-Subscription/dp/B09V3L1LGS?ref_=ast_sto_dp"
   },
   {
+    Cid: 1,
     id: 2,
     image:"https://m.media-amazon.com/images/I/61AwGDDZd3L._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/61GtmYgx8QL._FMwebp__.jpg",
@@ -34,6 +37,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Alpine-Carrier-Subscription/dp/B09V3HLFCF?ref_=ast_sto_dp"
   },
   {
+    Cid: 1,
     id: 3,
     image:"https://m.media-amazon.com/images/I/61-r9zOKBCL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/61K261tpsHL._FMwebp__.jpg",
@@ -45,6 +49,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B09V3HM7D2?ref_=ast_sto_dp"
   },
   {
+    Cid: 1,
     id: 4,
     image:"https://m.media-amazon.com/images/I/71uVYy3PbCL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/61d8XHJuE2L._FMwebp__.jpg",
@@ -56,6 +61,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B09G9C8CKZ?ref_=ast_sto_dp"
   },
   {
+    Cid: 3,
     id: 5,
     image:"https://m.media-amazon.com/images/I/61TOWf11+jL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/51RV0u32isL._FMwebp__.jpg",
@@ -67,6 +73,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Midnight-Carrier-Subscription/dp/B09V4HG5QD?ref_=ast_sto_dp"
   },
   {
+    Cid: 2,
     id: 6,
     image:"https://m.media-amazon.com/images/I/71XXJC7V8tL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/81xaMP9TqPL._FMwebp__.jpg",
@@ -78,6 +85,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Graphite-Carrier-Subscription/dp/B08L5Q1L2L?ref_=ast_sto_dp"
   },
   {
+    Cid: 2,
     id: 7,
     image:"https://m.media-amazon.com/images/I/71cSV-RTBSL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/81XQuip7apL._FMwebp__.jpg",
@@ -89,6 +97,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B08L5QZKTK?ref_=ast_sto_dp"
   },
   {
+    Cid: 2,
     id: 8,
     image:"https://m.media-amazon.com/images/I/71ZOtNdaZCL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/81E0lFgLLrL._FMwebp__.jpg",
@@ -100,6 +109,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B08L5MJTCP?ref_=ast_sto_dp"
   },
   {
+    Cid: 2,
     id: 9,
     image:"https://m.media-amazon.com/images/I/71ZOtNdaZCL._FMwebp__.jpg",
     image2:"https://m.media-amazon.com/images/I/81E0lFgLLrL._FMwebp__.jpg",
@@ -111,6 +121,7 @@ export const products = [
     link:"https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B08L5MJTCP?ref_=ast_sto_dp"
   },
   {
+    Cid: 4,
     id: 10,
     image:"https://m.media-amazon.com/images/I/81sxRBhe2sS._AC_SX679_.jpg",
     image2:"https://m.media-amazon.com/images/I/81xRvyrg5gS._AC_SX679_.jpg",

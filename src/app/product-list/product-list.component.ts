@@ -12,7 +12,7 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
   category = category;
-  //category = this.category; 
+  //category = this.category;
 
   share() {
     window.alert('The product has been shared!');

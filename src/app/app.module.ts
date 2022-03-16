@@ -30,7 +30,7 @@ import { CategoryComponent } from './category/category.component';
         component: ProductItemComponent,
       },
       {
-        path: 'categories/:categoryId',
+        path: 'categories/:categoryCid',
         component: CategoryComponent,
       },
     ]),
