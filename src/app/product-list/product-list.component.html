@@ -1,0 +1,47 @@
+<h3>Categories</h3>
+
+<div *ngFor="category">
+  <h4>
+    <a>
+      {{ category.call }}
+    </a>
+  </h4>
+</div>
+
+<h2>Products</h2>
+
+<div *ngFor="let product of products">
+  <h3>
+    <a
+      [title]="product.name + 'details'"
+      [routerLink]="['/products', product.id]"
+    >
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <p *ngIf="product.description">description: {{ product.description }}</p>
+
+  <button type="button" (click)="share()">Share</button>
+  <p></p>
+
+  <a [routerLink]="['products-item', product.id]">
+    <button type="button">Product Item</button>
+  </a>
+
+  <!--  <form [routerLink]="['product-item.component/:productitem]" target="_blank">
+    <button type="button">Product Item</button>
+  </form>
+-->
+
+  <app-product-alerts
+    [product]="product"
+    (notify)="onNotify()"
+  ></app-product-alerts>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
