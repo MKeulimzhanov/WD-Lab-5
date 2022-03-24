@@ -37,6 +37,10 @@ import { CategoryComponent } from './category/category.component';
         path: 'products/:categoryCid',
         component: CategoryComponent,
       },
+      {
+        path: 'products-item/:CategoryId',
+        component: CategoryComponent,
+      },
     ]),
   ],
   declarations: [
