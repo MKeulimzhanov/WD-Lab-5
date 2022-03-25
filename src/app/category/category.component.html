@@ -1,6 +1,9 @@
-<p>category works!</p>
-  <div *ngFor="let product of products">
-      <div *ngIf="product.CategoryId == category">
-        <h1>{{product.name}}</h1>
-      </div>
+<div *ngFor="let product of products">
+  <div *ngIf="product.CategoryId == category">
+    <h3>
+      <a [routerLink]="['/products-item', product.id]">
+        {{ product.name }}
+      </a>
+    </h3>
   </div>
+</div>

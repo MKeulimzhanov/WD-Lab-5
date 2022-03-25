@@ -13,5 +13,8 @@
   <a href="{{ product.link }}">
     <button type="button">Share</button>
   </a>
+  <button type="button" (click)="addToCart(product)">Buy</button>
   <button type="button" (click)="LIKE()" >👍 + {{n}}</button>
+  <button type="button" (click)="ResetLIKE()" >🙅‍♂️ 👍</button>
+
 </div>
