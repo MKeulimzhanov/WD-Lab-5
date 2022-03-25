@@ -9,9 +9,8 @@ import { Product, products } from '../products-item';
 })
 export class ProductItemComponent implements OnInit {
   product: Product | undefined;
-  n=0;
-  constructor(private route: ActivatedRoute) {
-  }
+  n = 0;
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
@@ -20,8 +19,8 @@ export class ProductItemComponent implements OnInit {
       (product) => product.id === productIdFromRoute
     );
   }
-  LIKE(){
-      this.n+=1;
+  LIKE() {
+    this.n += 1;
   }
 }
 /*
