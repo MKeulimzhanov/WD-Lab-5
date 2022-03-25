@@ -9,15 +9,17 @@ import { CartService } from '../cart.service';
   styleUrls: ['./category.component.css'],
 })
 export class CategoryComponent implements OnInit {
-  product: Product | undefined;
-  category: Category | undefined;
+  //product: Product | undefined;
+  products = products;
+  category: number | undefined;
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
-    const productIdFromRoute = Number(routeParams.get('productId'));
-    this.product = products.find(
+    this.category = Number(routeParams.get('CategoryId'));
+    //const productIdFromRoute = Number(routeParams.get('CategoryId'));
+    /*this.product = products.find(
       (product) => product.id === productIdFromRoute
-    );
+    );*/
   }
 }
